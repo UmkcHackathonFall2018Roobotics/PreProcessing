@@ -36,7 +36,7 @@ if __name__ == "__main__":
 						content += data;
 						if not count == len(row) - 1:
 							content += ",";
-						
+					content += "price action";
 					
 				content += "\n";
 			except:
