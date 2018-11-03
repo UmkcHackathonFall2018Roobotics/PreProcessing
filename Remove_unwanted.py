@@ -20,8 +20,6 @@ def clean_text(text):
     text = re.sub(r'j k ', ' jk ', text)
     text = re.sub(r' s ', ' ', text)
     text = re.sub(r' yr ', ' year ', text)
-    text = re.sub(r' l g b t ', ' lgbt ', text)
-    text = re.sub(r'0km ', '0 km ', text)
 
     #remove stop words
     text = text.split()
